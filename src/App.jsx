@@ -1,11 +1,11 @@
 import React from 'react'
 import "./App.css"
+import Note from './Components/Note/Note'
 
 const App = () => {
   return (
     <div>
-    <h1>Hello World</h1>
-      This is App
+    <Note />
     </div>
   )
 }
