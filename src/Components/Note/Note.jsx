@@ -2,7 +2,8 @@ import React from 'react'
 
 const Note = () => {
   return (
-    <div>
+    <div className='note'>
+    <textarea  className="note_text"></textarea>
       
     </div>
   )
