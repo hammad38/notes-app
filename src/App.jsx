@@ -1,11 +1,11 @@
 import React from 'react'
+import NoteContainer from './Components/NoteContainer/NoteContainer'
 import "./App.css"
-import Note from './Components/Note/Note'
 
 const App = () => {
   return (
-    <div>
-    <Note />
+    <div className='App'>
+    <NoteContainer />
     </div>
   )
 }
