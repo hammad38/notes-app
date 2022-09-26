@@ -1,0 +1,9 @@
+.note{
+     height: 450px;
+     width: 550px;
+     background-color: pink;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
