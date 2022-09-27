@@ -3,9 +3,6 @@ import "./Note.css"
 
 const Note = () => {
   {
-    text: "Write Something",
-    time: "12:00 AM",
-    color: "cyan"
   }
   return (
     <div className="note" style={{backgroundColor:props.note.color}}>
@@ -16,3 +13,4 @@ const Note = () => {
 };
 
 export default Note;
+  
