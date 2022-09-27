@@ -2,9 +2,14 @@ import React from "react";
 import "./Note.css"
 
 const Note = () => {
+  {
+    text: "Write Something",
+    time: "12:00 AM",
+    color: "cyan"
+  }
   return (
-    <div className="note">
-    <textarea className="note_text" />
+    <div className="note" style={{backgroundColor:props.note.color}}>
+    <textarea className="note_text" defaultValue={props.note.text} />
       <p>11:45 PM 26 September</p>
     </div>
   );
