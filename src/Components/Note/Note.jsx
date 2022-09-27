@@ -2,7 +2,7 @@ import React from "react";
 import "./Note.css"
 
 const Note = () => {
-  {
+  
     text:"Write something",
     time:"2:00AM",
     color:"cyan"
