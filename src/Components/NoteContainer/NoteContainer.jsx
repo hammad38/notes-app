@@ -41,6 +41,55 @@ const NoteContainer = () => {
           color: "red",
         }}
       />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
+      <Note
+        note={{
+          text: "Write something",
+          time: "12:00 AM",
+          color: "red",
+        }}
+      />
       </div>
     </div>
   );
