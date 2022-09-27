@@ -1,34 +1,18 @@
 .note{
     padding: 25px;
-<<<<<<< HEAD
-    margin: 10px;
     height: 280px;
     width: 260px;
-    background-color: turquoise;
-=======
-    height: 280px;
-    width: 260px;
->>>>>>> 5f771cc2b1bd64c09dda2b53271c4deb1598166f
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
 }
 
 .note_text{
-<<<<<<< HEAD
-    flex:1;
-=======
->>>>>>> 5f771cc2b1bd64c09dda2b53271c4deb1598166f
+    flex: 1;
     resize: none;
     border: none;
     outline: none;
+    background-color: transparent;
     font-size: 1rem;
-    line-height: 1.875rem;
-<<<<<<< HEAD
-    background-color: transparent;
+    line-height: 1.5rem;
 }
-=======
-    flex: 1;
-    background-color: transparent;
-}
->>>>>>> 5f771cc2b1bd64c09dda2b53271c4deb1598166f
