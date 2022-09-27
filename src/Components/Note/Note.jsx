@@ -2,6 +2,9 @@ import React from "react";
 import "./Note.css"
 
 const Note = () => {
+  {
+    text:"write something"
+  }
   return (
     <div className="note">
       <textarea className="note_text" />
