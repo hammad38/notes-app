@@ -15,10 +15,12 @@ width: 9px;
 
 .custom-scroll::-webkit-scrollbar-track{
     background: #f1f1f1;
+    border-radius: 10px;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb{
     background: #888;
+    border-radius: 10px;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb:hover{
