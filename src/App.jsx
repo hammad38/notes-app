@@ -4,7 +4,7 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import "./App.css";
 
 const App = () => {
-  const [notes, setNotes] = useState([''
+  const [notes, setNotes] = useState([
     // {
     //   text: "Write something",
     //   time: "12:00 PM",
@@ -25,7 +25,7 @@ const App = () => {
     //   time: "12:00 AM",
     //   color: "purple",
     // },
-  ]);
+]);
   const addNote = (color) => {
     const tempNotes = [...notes];
 
