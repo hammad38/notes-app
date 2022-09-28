@@ -1,17 +1,17 @@
-import React from 'react'
-import { MdOutlineDelete } from 'react-icons/md';
-import { ImPlus } from 'react-icons/im';
-import "./Sidebar.css"
+import React from "react";
+import { MdOutlineDelete } from "react-icons/md";
+import { HiPlusCircle } from "react-icons/hi";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div>
-    <h1>
-      <MdOutlineDelete />
-      <ImPlus />
-      </h1>
+    <div className="sidebar">
+      <HiPlusCircle className="plusicon" />
+      <ul className="sidebar_list">
+        <li className="sidebar_list_item"></li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
