@@ -3,7 +3,7 @@ import { MdOutlineDelete } from "react-icons/md";
 import { HiPlusCircle } from "react-icons/hi";
 import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   const colors = ["#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91"];
   
   const [listOpen, setListOpen] = useState(false)
@@ -20,6 +20,7 @@ const Sidebar = () => {
             key={index}
             className="sidebar_list_item"
             style={{ backgroundColor: color }}
+            onClick={()=>props.addNote(color)}
           ></li>
         ))}
       </ul>
