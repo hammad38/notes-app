@@ -3,9 +3,8 @@
 }
 
 .note-container_notes{
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-  
 }
