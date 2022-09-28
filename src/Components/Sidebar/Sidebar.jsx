@@ -1,10 +1,15 @@
 import React from 'react'
+import { MdOutlineDelete } from 'react-icons/md';
+import { ImPlus } from 'react-icons/im';
 import "./Sidebar.css"
 
 const Sidebar = () => {
   return (
     <div>
-      <p>Sidebar</p>
+    <h1>
+      <MdOutlineDelete />
+      <ImPlus />
+      </h1>
     </div>
   )
 }
