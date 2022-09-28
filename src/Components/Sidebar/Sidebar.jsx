@@ -10,12 +10,14 @@ const Sidebar = () => {
     <div className="sidebar">
       <HiPlusCircle className="plusicon" />
       <ul className="sidebar_list">
+
         {colors.map((color, index) => (
           <li
           key={index}
             className="sidebar_list_item"
             style={{ backgroundColor: color }}
           ></li>
+          
         ))}
       </ul>
     </div>

@@ -3,3 +3,7 @@
     width: 50px;
     cursor: pointer;
 }
+
+.sidebar_list_item{
+    /* list-style: none; */
+}
