@@ -10,49 +10,49 @@ const NoteContainer = () => {
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
         note={{
           text: "Write something",
           time: "12:00 AM",
-          color: "red",
+          color: "lightgray",
         }}
       />
       <Note
