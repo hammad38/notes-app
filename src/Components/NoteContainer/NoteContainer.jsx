@@ -4,7 +4,7 @@ import "./NoteContainer.css"
 const NoteContainer = () => {
   return (
     <div className="note-container">
-    <h1>Notes</h1>  
+    <h2>Notes</h2>  
     <div className="note-container_notes custom-scroll">
       <Note
         note={{
