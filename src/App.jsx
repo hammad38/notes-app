@@ -7,18 +7,18 @@ const App = () => {
  const notes = [
     {
       text: "Write something",
-      time: "12:00 AM",
+      time: "12:00 PM",
       color: "yellow",
     },
     {
-      text: "Write something",
-      time: "12:00 AM",
+      text: "sadf",
+      time: "21:00 AM",
       color: "pink",
     },
     {
-      text: "Write something",
-      time: "12:00 AM",
-      color: "gray",
+      text: ";lkjafd",
+      time: "23:00 AM",
+      color: "lightgray",
     },
     {
       text: "Write something",
