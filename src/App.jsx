@@ -31,7 +31,7 @@ const App = () => {
 
     tempNotes.push({ 
       text: "", 
-      time: Date().toLocaleString(), 
+      time: Date.now(), 
       color 
     });
     setNotes(tempNotes)
