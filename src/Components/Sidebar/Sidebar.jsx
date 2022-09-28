@@ -5,16 +5,16 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   const colors = ["#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91"];
-
-  const [listOpen, setListOpen] = useState(false);
+  
+  const [listOpen, setListOpen] = useState(false)
 
   return (
     <div className="sidebar">
       <HiPlusCircle
         className="plusicon"
-        onClick={() => setListOpen(!listOpen)}
+        onClick={()=>setListOpen(!listOpen)}
       />
-      <ul className={`sidebar_list ${listOpen ? "sidebar_list_active" : ""}`}>
+      <ul className={`sidebar_list ${ listOpen ? "sidebar_list_active" : ""}`}>
         {colors.map((color, index) => (
           <li
             key={index}
