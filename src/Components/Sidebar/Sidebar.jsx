@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineDelete } from "react-icons/md";
 import { HiPlusCircle } from "react-icons/hi";
 import "./Sidebar.css";
@@ -6,11 +6,15 @@ import "./Sidebar.css";
 const Sidebar = () => {
   const colors = ["#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91"];
 
-  
+  const [listOpen, setListOpen] = useState(false);
+
   return (
     <div className="sidebar">
-      <HiPlusCircle className="plusicon"  />
-      <ul className="sidebar_list">
+      <HiPlusCircle
+        className="plusicon"
+        onClick={() => setListOpen(!listOpen)}
+      />
+      <ul className={`sidebar_list ${listOpen ? "sidebar_list_active" : ""}`}>
         {colors.map((color, index) => (
           <li
             key={index}
