@@ -22,7 +22,7 @@ const NoteContainer = (props) => {
           <Note key={note.id} note={note} 
             deleteNote = {props.deleteNote}
           /> 
-        )) : <h3>No notes present</h3>}
+        )) : <h3 className="no_Notes">No notes present</h3>}
       </div>
     </div>
   );

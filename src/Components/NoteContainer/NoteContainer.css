@@ -2,8 +2,10 @@
   height: 100%;
 }
 
-.note-container h1{
+.note-container h2{
     margin-bottom: 20px;
+    font-size: 3rem;
+    /* display: none; */
 }
 
 .note-container_notes {
@@ -11,6 +13,12 @@
   display: flex;
   flex-wrap: wrap;
   overflow-y: scroll;
+}
+
+.no_Notes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .custom-scroll::-webkit-scrollbar {
@@ -30,3 +38,4 @@
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
