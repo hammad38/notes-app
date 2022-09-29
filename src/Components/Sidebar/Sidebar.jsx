@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MdOutlineDelete } from "react-icons/md";
+// import { MdOutlineDelete } from "react-icons/md";
 import { HiPlusCircle } from "react-icons/hi";
 import "./Sidebar.css";
 
