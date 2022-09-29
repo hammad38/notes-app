@@ -8,7 +8,7 @@ const Note = (props) => {
       <textarea className="note_text" defaultValue={props.note.text} />
       <div className="note_footer">
       <p>{props.note.time}</p>
-      <AiFillDelete />
+      <AiFillDelete className="deleteIcon" />
       </div>
     </div>
   );

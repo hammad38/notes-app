@@ -11,7 +11,7 @@ const Sidebar = (props) => {
   return (
     <div className="sidebar">
       <HiPlusCircle
-        className="plusicon"
+        className="plusIcon"
         onClick={()=>setListOpen(!listOpen)}
       />
       <ul className={`sidebar_list ${ listOpen ? "sidebar_list_active" : ""}`}>
