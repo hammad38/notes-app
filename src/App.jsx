@@ -9,7 +9,7 @@ const App = () => {
     const tempNotes = [...notes];
 
     tempNotes.push({
-      
+      id:Math.floor(Math.random() * Math.floor(Math.random() * Date.now())),
       text: "",
       time: Date.now(),
       color,

@@ -18,8 +18,8 @@ const NoteContainer = (props) => {
     <div className="note-container">
       <h2>Notes</h2>
       <div className="note-container_notes custom-scroll">
-        {notes.map((note, index) => (
-          <Note key={index} note={note} />
+        {notes.map((note) => (
+          <Note key={note.id} note={note} />
         ))}
       </div>
     </div>
