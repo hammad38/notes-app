@@ -4,7 +4,7 @@ import { HiPlusCircle } from "react-icons/hi";
 import "./Sidebar.css";
 
 const Sidebar = (props) => {
-  const colors = ["#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91"];
+  const colors = ["#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91", "#ed95c6"];
   
   const [listOpen, setListOpen] = useState(false)
 
