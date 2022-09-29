@@ -1,11 +1,11 @@
 .note {
   padding: 25px;
   height: 240px;
-  width: 260px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
-  margin: 20px;
+  margin: 15px;
 }
 
 .note_text {
