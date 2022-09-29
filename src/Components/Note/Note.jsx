@@ -1,5 +1,5 @@
 import React from "react";
-import {AiFillDelete} from "react-icons/ai";
+import {RiDeleteBin6Fill} from "react-icons/ri";
 import "./Note.css";
 
 const Note = (props) => {
@@ -8,7 +8,7 @@ const Note = (props) => {
       <textarea className="note_text" defaultValue={props.note.text} />
       <div className="note_footer">
       <p>{props.note.time}</p>
-      <AiFillDelete className="deleteIcon" />
+      <RiDeleteBin6Fill className="deleteIcon" />
       </div>
     </div>
   );

@@ -18,8 +18,14 @@
     line-height: 1.5rem;
 }
 
+.note_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .deleteIcon{
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
 }
