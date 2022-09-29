@@ -8,7 +8,7 @@ const Note = (props) => {
       <textarea className="note_text" defaultValue={props.note.text} />
       <div className="note_footer">
       <p>{props.note.time}</p>
-      <RiDeleteBin6Fill className="deleteIcon" />
+      <RiDeleteBin6Fill className="deleteIcon" onClick={()=>props.deleteNote(props.note.id)}/>
       </div>
     </div>
   );
