@@ -3,6 +3,18 @@ import {RiDeleteBin6Fill} from "react-icons/ri";
 import "./Note.css";
 
 const Note = (props) => {
+  
+  //formatting date
+  const formatDate = (value) =>{
+    if(!value) return ""
+
+    const date = new Date(value)
+
+    let hrs = date.getHours()
+    let amPm = hrs>12?"AM":"PM"
+    hrs=hrs>12?hrs=24-hrs:hrs
+  }
+
   return (
     <div className="note" style={{ backgroundColor: props.note.color }}>
       <textarea className="note_text" defaultValue={props.note.text} />
