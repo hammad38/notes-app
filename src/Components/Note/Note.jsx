@@ -12,7 +12,9 @@ const Note = (props) => {
 
     let hrs = date.getHours()
     let amPm = hrs>12?"AM":"PM"
+    hrs = hrs? hrs : "12" //this is for false value becasue js not accepts zero
     hrs=hrs>12?hrs=24-hrs:hrs
+
   }
 
   return (
