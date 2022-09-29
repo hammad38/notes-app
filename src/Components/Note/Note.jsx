@@ -41,7 +41,7 @@ const Note = (props) => {
 
   return (
     <div className="note" style={{ backgroundColor: props.note.color }}>
-      <textarea className="note_text" defaultValue={props.note.text} />
+      <textarea className="note_text" defaultValue={props.note.text} onChange={(event)=>props.updateText(event.target.value,props.note.id)} />
       <div className="note_footer">
         <p>{formatDate(props.note.time)}</p>
         <MdDeleteOutline

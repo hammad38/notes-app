@@ -4,37 +4,53 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import "./App.css";
 
 const App = () => {
-  const [notes, setNotes] = useState(JSON.parse(localStorage.getItem("notes-app")) || []);
+  const [notes, setNotes] = useState(
+    JSON.parse(localStorage.getItem("notes-app")) || []
+  );
   const addNote = (color) => {
     const tempNotes = [...notes];
 
     tempNotes.push({
-      id:Math.floor(Math.random() * Math.floor(Math.random() * Date.now())),
+      id: Math.floor(Math.random() * Math.floor(Math.random() * Date.now())),
       text: "",
       time: Date.now(),
       color,
     });
     setNotes(tempNotes);
   };
-  
-  const deleteNote=(id)=>{
-    const tempNotes = [...notes]
 
-    const index = tempNotes.findIndex(note=>note.id===id)
-    if(index<0 )return
+  const deleteNote = (id) => {
+    const tempNotes = [...notes];
 
-    tempNotes.splice(index, 1 )
+    const index = tempNotes.findIndex((note) => note.id === id);
+    if (index < 0) return;
+
+    tempNotes.splice(index, 1);
     setNotes(tempNotes);
-  }
+  };
 
-  useEffect(()=>{
-    localStorage.setItem("notes-app" , JSON.stringify(notes))
-  },[notes])
+  const updateText = (text, id) => {
+    const tempNotes = [...notes];
+
+    const index = tempNotes.findIndex((note) => note.id === id);
+    if (index < 0) return;
+
+    tempNotes[index].text = text;
+    setNotes(tempNotes);
+  };
+
+  useEffect(() => {
+    localStorage.setItem("notes-app", JSON.stringify(notes));
+  }, [notes]);
 
   return (
     <div className="App">
       <Sidebar addNote={addNote} />
-      <NoteContainer notes={notes} deleteNote={deleteNote}/>
+      <NoteContainer
+        notes={notes}
+        deleteNote={deleteNote}
+        updateText={updateText}
+      />
     </div>
   );
 };
