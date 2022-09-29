@@ -28,4 +28,10 @@
     width: 35px;
     height: 35px;
     cursor: pointer;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.note:hover .deleteIcon{
+    opacity: 1;
 }
