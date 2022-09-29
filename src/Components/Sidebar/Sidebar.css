@@ -5,25 +5,23 @@
 }
 
 .sidebar_list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    height: 0px; 
-    transition: 500ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 0px;
+  transition: 500ms;
 }
 
-.sidebar_list_active{
-    height: 300px;
+.sidebar_list_active {
+  height: 300px;
 }
-
 
 .sidebar_list_item {
-    height: 23px;
-    width: 23px;
-    border-radius: 50%;
-    list-style: none; 
-
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  list-style: none;
 }
 
 .plusIcon {

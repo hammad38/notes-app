@@ -25,7 +25,7 @@ const Note = (props) => {
 
     let hrs = date.getHours();
     let amPm = hrs > 12 ? "PM" : "AM";
-    hrs = hrs > 12 ? (hrs = hrs-12) : hrs;
+    hrs = hrs > 12 ? (hrs = hrs - 12) : hrs;
     hrs = hrs ? hrs : "12"; //this is for false value becasue js not accepts zero
     hrs = hrs < 10 ? "0" + hrs : hrs;
 
