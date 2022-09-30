@@ -12,13 +12,23 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
-.no_Notes{
+.no_notes{
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-left: 450px;
+  text-transform: capitalize;
+  font-size: 24px;
+
+}
+
+@media only screen and (max-width: 390px) {
+  .no_notes{
+    margin: 0px;
+  }
+  
 }
 
 .custom-scroll::-webkit-scrollbar {
