@@ -12,13 +12,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .no_notes{
   display: flex;
   align-items: center;
-  margin-left: 450px;
+  margin: 0px 450px;
   text-transform: capitalize;
   font-size: 24px;
 
