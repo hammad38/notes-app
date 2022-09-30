@@ -15,13 +15,23 @@
   overflow-y: scroll;
 }
 
-.no_notes{
+.no-notes{
   display: flex;
   align-items: center;
   margin: 0px 450px;
   text-transform: capitalize;
   font-size: 24px;
+}
 
+.no-span{
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid rgb(48, 3, 3);
+}
+
+.no-span:hover{
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 500px) {

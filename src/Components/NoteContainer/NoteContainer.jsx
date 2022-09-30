@@ -28,8 +28,8 @@ const NoteContainer = (props) => {
             />
           ))
         ) : (
-          <div className="no_notes">
-            <h3>No notes present</h3>
+          <div className="no-notes">
+            <h3> <span className="no-span"> No notes present</span></h3>
           </div>
         )}
       </div>
