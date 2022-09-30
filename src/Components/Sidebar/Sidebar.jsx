@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HiPlusCircle } from "react-icons/hi";
+import { AiOutlinePlusCircle } from "react-icons/ai";
 import "./Sidebar.css";
 
 const Sidebar = (props) => {
@@ -9,7 +9,7 @@ const Sidebar = (props) => {
 
   return (
     <div className="sidebar">
-      <HiPlusCircle
+      <AiOutlinePlusCircle
         className="plusIcon"
         onClick={()=>setListOpen(!listOpen)}
       />
