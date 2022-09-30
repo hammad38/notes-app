@@ -15,9 +15,9 @@ const NoteContainer = (props) => {
   const notes = reverseArray(props.notes);
 
   return (
-    <div className="note-container custom-scroll">
+    <div className="note-container ">
       <h2>Notes</h2>
-      <div className="note-container_notes">
+      <div className="note-container_notes custom-scroll">
         {notes.length > 0 ? (
           notes.map((note) => (
             <Note
@@ -29,7 +29,7 @@ const NoteContainer = (props) => {
           ))
         ) : (
           <div className="no_notes">
-            <h3 >No notes present</h3>
+            <h3>No notes present</h3>
           </div>
         )}
       </div>

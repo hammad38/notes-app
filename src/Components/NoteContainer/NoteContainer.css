@@ -3,8 +3,8 @@
 }
 
 .note-container h2{
-    margin-bottom: 20px;
-    font-size: 3rem;
+  margin-bottom: 20px;
+  font-size: 3rem;
 }
 
 .note-container_notes {
@@ -24,7 +24,7 @@
 
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 500px) {
   .no_notes{
     margin: 0px;
   }
