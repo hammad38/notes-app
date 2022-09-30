@@ -8,6 +8,15 @@
   margin: 15px;
 }
 
+@media only screen and (max-width: 380px) {
+  .note {  
+    height: 240px;
+    width: 220px;
+    margin: 10px;
+  }
+}
+
+
 .note_text {
   flex: 1;
   resize: none;

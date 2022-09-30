@@ -4,6 +4,8 @@
   gap: 40px;
 }
 
+
+
 .sidebar_list {
   display: flex;
   flex-direction: column;
@@ -12,6 +14,8 @@
   height: 0px;
   transition: 500ms;
 }
+
+
 
 .sidebar_list_active {
   height: 300px;
@@ -24,6 +28,8 @@
   list-style: none;
 }
 
+
+
 .sidebar_list_item:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -33,6 +39,12 @@
   width: 60px;
   border-radius: 50%;
   cursor: pointer;
+}
+@media only screen and (max-width: 380px) {
+  .plusIcon {  
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .plusIcon:hover {

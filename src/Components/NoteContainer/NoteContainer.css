@@ -2,10 +2,17 @@
   height: 100%;
 }
 
-.note-container h2{
+.note-container h2 {
   margin-bottom: 20px;
   font-size: 3rem;
 }
+@media only screen and (max-width: 380px) {
+  .note-container h2 {  
+    margin-bottom: 7px;
+    font-size: 2rem;
+  }
+}
+
 
 .note-container_notes {
   height: 90%;
@@ -15,7 +22,8 @@
   overflow-y: scroll;
 }
 
-.no-notes{
+
+.no-notes {
   display: flex;
   align-items: center;
   margin: 0px 450px;
@@ -23,26 +31,32 @@
   font-size: 24px;
 }
 
-.no-span{
+@media only screen and (max-width: 380px) {
+  .no-notes {  
+    font-size: 17px; 
+  }
+}
+
+
+.no-span {
   color: #ffffff;
   background-color: black;
   border: 2px solid rgb(48, 3, 3);
 }
 
-.no-span:hover{
+.no-span:hover {
   background-color: white;
   color: black;
 }
 
-@media only screen and (max-width: 500px) {
-  .no_notes{
+@media only screen and (max-width: 380px) {
+  .no-notes {
     margin: 0px;
   }
-  
 }
 
 .custom-scroll::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 .custom-scroll::-webkit-scrollbar-track {
@@ -58,4 +72,3 @@
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
